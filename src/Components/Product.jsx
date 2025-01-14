@@ -14,7 +14,7 @@ const Product = () => {
           </h1>
           <hr className="border-gray-700 my-9" />
         </div>
-        <div className="flex flex-wrap justify-center gap-y-6 tablet:flex-nowrap mobile:px-4 tablett:px-0 tablett:gap-x-4">
+        <div className="flex flex-wrap tablett:mx-4 justify-center gap-y-6 tablet:flex-nowrap mobile:px-4 tablett:px-0 tablett:gap-x-4">
           <div className="justify">
             <a href="#">
               <img className="rounded-3xl" src="Prd1.jpg" alt="" />
@@ -37,7 +37,7 @@ const Product = () => {
               ADD TO CART
             </button>
           </div>
-          <div>
+          <div className="tablet:mx-4">
             <a href="#">
               <img className="rounded-3xl" src="Prd3.jpg" alt="" />
             </a>
