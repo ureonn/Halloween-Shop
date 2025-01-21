@@ -4,6 +4,8 @@ import Product from "../Components/Product";
 import Sweets from "../Components/Sweets";
 import Scary from "../Components/Scary";
 import Ceramic from "../Components/Ceramic";
+import Unforgettable from "../Components/Unforgettable";
+import Testimonial from "../Components/Testimonial";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Sweets />
       <Scary />
       <Ceramic />
+      <Unforgettable />
+      <Testimonial />
     </div>
   );
 };

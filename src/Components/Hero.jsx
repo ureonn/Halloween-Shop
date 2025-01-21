@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="bg-black p-5 text-white">
-      <div className="rounded-3xl py-14 px-2 bg-hero bg-cover tablett:pl-12">
+      <div className="rounded-3xl py-14 px-2 bg-[url('/hero.jpg')]  bg-cover tablett:pl-12">
         <h1 className="font-black pb-1 text-[14px] tablett:text-start tracking-widest leading-tight">
           NEW COLLECTION
         </h1>
