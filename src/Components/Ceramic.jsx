@@ -4,7 +4,7 @@ const Ceramic = () => {
   return (
     <div>
       <div className="bg-black p-5 pt-28 text-white">
-        <div className="rounded-3xl py-20 px-2 bg-gray-500 bg-Ceramic bg-cover tablett:pl-12">
+        <div className="rounded-3xl py-20 px-2 bg-[url('/ye.jpg')]  bg-gray-500 bg-cover tablett:pl-12">
           <h1 className="font-black pb-1 text-[14px] tablett:text-start tracking-widest leading-tight">
             NEW COLLECTION
           </h1>
