@@ -1,2 +1,4 @@
 *.env
- *.gitignore
+*.log
+node_modules/
+dist/
